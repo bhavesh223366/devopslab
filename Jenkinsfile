@@ -11,13 +11,13 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'py python.py'
+                bat 'python python.py'
             }
         }
 
         stage('Build') {
             steps {
-                bat 'py python.py'
+                bat 'pyhton python.py'
             }
         }
     }
