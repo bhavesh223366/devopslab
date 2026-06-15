@@ -17,7 +17,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'pyhton python.py'
+                bat 'python python.py'
             }
         }
     }
